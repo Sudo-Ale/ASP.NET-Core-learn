@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RazorPagesMovie.Models;
+using RazorPagesMovie.Data;
+
 
 namespace RazorPagesMovie.Pages_Movies
 {
