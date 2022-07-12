@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using RazorPagesMovie.Data;
@@ -20,7 +21,7 @@ else
 
 var app = builder.Build();
 
-//he following code sets the exception endpoint to /Error and enables HTTP Strict Transport Security Protocol (HSTS) when the app is not running in development mode
+// The following code sets the exception endpoint to /Error and enables HTTP Strict Transport Security Protocol (HSTS) when the app is not running in development mode
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
